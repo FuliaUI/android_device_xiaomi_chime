@@ -12,11 +12,10 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/xiaomi/chime/device.mk)
 
 # Inherit some common xdroidOSS stuff.
-$(call inherit-product, vendor/xdroid/config/common.mk)
-XDROID_MAINTAINER := frostg012
+$(call inherit-product, vendor/fulia/config/common.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := xdroid_chime
+PRODUCT_NAME := fulia_chime
 PRODUCT_DEVICE := chime
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := SM6115
